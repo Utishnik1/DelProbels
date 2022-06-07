@@ -5,8 +5,8 @@
 
 int main(void){
     char *OUT="";
-    char *Input="bbbb         \0";
-    printf("%d\n",strlen(Input));
+    char *Input="yarik \0";
+    //printf("%d\n",strlen(Input));
     DelAllProbels(Input,OUT,strlen(Input),strlen(Input));
-    
+    system("pause");
 }
